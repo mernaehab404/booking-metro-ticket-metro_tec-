@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+    background-color: rgb(40, 38, 38);
+}
+
+
+
+header {
+    background-image: url("WhatsApp\ Image\ 2022-12-01\ at\ 12.33.36\ AM.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.name {
+    color: rgb(216, 240, 255);
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(216, 240, 255);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.s ease;
+}
+
+ul li a:hover {
+    background-color: rgb(199, 224, 37);
+    color: black;
+}
+
+ul li.active a {
+    background-color: rgb(199, 224, 37);
+    color: black;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    color: #fff;
+}
+
+form {
+    width: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    border: 20px solid rgb(97, 97, 97);
+    background-color: #fff;
+
+}
+
+h3 {
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    color: rgb(97, 97, 97);
+    background-color: rgb(216, 240, 255);
+}
+
+
+.map .image img {
+
+    height: 480px;
+    width: 50%;
+    float: right;
+    margin-bottom: 30px;
+
+
+}
+
+
+/* 
+div.elem-group.inlined {
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+    background-color: #fff;
+} */
+
+label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+    background-color: #fff;
+}
+
+input,
+select,
+textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 50%;
+
+    background-color: #fff;
+}
+
+/* div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+    background-color: #fff;
+} */
+
+
+
+button {
+    height: 40px;
+    background: rgb(216, 240, 255);
+    border: none;
+    margin: 5px;
+    width: 30%;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid black;
+    background-color: rgb(199, 224, 37);
+}
+
+.footer .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box {
+    flex: 1 1 400px;
+    margin: 2rem;
+}
+
+.footer .box-container .box .logo {
+    font-size: 30px;
+    color: rgb(216, 240, 255);
+}
+
+
+.footer .box-container .box h3 {
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+
+.footer .box-container .box:nth-child(2) {
+    text-align: center;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 30px;
+    padding: 6px 0;
+    color: #666;
+}
+
+.container3 {
+    /* width: 100%; */
+    /* height: 100vh; */
+    padding: 0 8%;
+
+}
+
+.container3 h1 {
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+    color: aliceblue;
+}
+
+.container3 h1::after {
+    content: '';
+    background: rgb(199, 224, 37);
+    width: 180px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-gap: 30px; */
+}
+
+.service {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    /* background: transparent; */
+    color: aliceblue;
+    transition: transform 0.5s, backrgound 0.5s;
+}
+
+.service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(199, 224, 37);
+}
+
+.service h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.service:hover {
+    background: #666;
+
+    transform: scale(1.05);
+}
+
+.service:hover i {
+    color: #fff;
+}
+
+.info {
+    font-size: 20px;
+    text-align: center
+}
+
+.video video {
+   width: 100%;
+}

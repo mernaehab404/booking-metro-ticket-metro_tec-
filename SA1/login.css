@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: century Gothic;
+}
+body {
+    background: url(facebook-cover-photo-black.jpg);
+    background-size: cover;
+    color: goldenrod;
+}
+/* Start Header */
+
+
+.name {
+    color: rgb(216, 240, 255);
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(216, 240, 255);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.s ease;
+}
+
+ul li a:hover {
+    background-color: rgb(199, 224, 37);
+    color: black;
+}
+
+ul li.active a {
+    background-color: rgb(199, 224, 37);
+    color: black;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    color: #fff;
+}
+/* End Header */
+/* Start Login*/
+.login-form {
+    width: 350px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.login-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 0px;
+}
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    width: 50%;
+}
+.login-form button:hover {
+    color: black;
+    text-transform: uppercase;
+}
+/* end Login*/
